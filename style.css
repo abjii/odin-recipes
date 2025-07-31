@@ -6,7 +6,29 @@
 
 
 body {
-  background: #d9c7c7;
+      background: linear-gradient(90deg, #567ab3bf, #ad5a5a00);
   font-family: Arial;
+  
 }
 
+h1 {
+width: fit-content;
+margin: 100px auto;
+    padding: 60px;
+    border: solid 3px #34456f;
+    font-size: 120px;
+    font-style: italic;
+    color: #34456f;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+list-style-type: none;
+}
+
+li>a {
+  font-size: 60px;
+  font-style: italic;
+  color: #34456f;
+}
